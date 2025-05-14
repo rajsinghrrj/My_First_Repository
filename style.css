@@ -48,6 +48,7 @@ body {
   background-color: #dfcfc1;
   padding: 90px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .profile-card {
@@ -59,10 +60,10 @@ body {
 }
 
 .profile-img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .profile-card h2 {
@@ -209,3 +210,26 @@ body {
     gap: 10px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+    margin: 30% auto;
+    padding: 15px;
+  }
+
+  .modal-content h2 {
+    font-size: 20px;
+  }
+
+  .modal-content p {
+    font-size: 14px;
+  }
+
+  .close-btn {
+    font-size: 24px;
+    top: 5px;
+    right: 10px;
+  }
+}
+
